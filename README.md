@@ -8,8 +8,7 @@ An autonomous, audit-compliant internal IT support agent built for Veridian Corp
 
 You can interact with the live working prototype without running any code locally:
 
-👉 **[Click Here to Open the Live Agent Prototype](https://share.streamlit.io)** *(Replace with your deployed Streamlit Cloud URL)*
-
+👉 **[Click Here to Open the Live Agent Prototype](https://8rc4bgacymdicgfaua2el5.streamlit.app/)
 ---
 
 ## 📌 Project Overview
