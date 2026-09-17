@@ -13,7 +13,7 @@ user_query = st.text_area("How can IT help you today?", placeholder="e.g., I'm l
 employee_email = st.text_input("Employee Email:", "employee@veridian-corp.example")
 
 def run_agent_logic(query, email):
-    time_now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+   time_now = datetime.now().strftime("2026-09-21 %H:%M:%S")
     q = query.lower()
     
     # Policy Routing Engine
@@ -44,7 +44,7 @@ def run_agent_logic(query, email):
 
     ticket = {
         "Ticket ID": f"TK-{hash(time_now) % 10000}",
-        "Date": "2026-09-21 10:00",
+        "Date": time_now,
         "Employee": email,
         "Issue Summary": query,
         "Agent Decision & Next Steps": action,
