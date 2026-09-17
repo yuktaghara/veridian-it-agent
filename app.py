@@ -44,7 +44,7 @@ def run_agent_logic(query, email):
 
     ticket = {
         "Ticket ID": f"TK-{hash(time_now) % 10000}",
-        "Date": time_now,
+        "Date": "2026-09-21 10:00",
         "Employee": email,
         "Issue Summary": query,
         "Agent Decision & Next Steps": action,
